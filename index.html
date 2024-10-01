@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portafolio Jacobo</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Jacobo</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#hobbies" onclick="seleccionar()">HOBBIES</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#formación" onclick="seleccionar()">FORMACIÓN</a></li>
+                    <li><a href="#proyecto" onclick="seleccionar()">PROYECTO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <<i class="fa-solid fa-bars-progress"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/ph.jpg" alt="">
+            </div>
+            <h1>Jacobo Gutiérrez</h1>
+            <h2> Especialista en Ventas</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-skype"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <div>
+                <a href="img/CV-JG.pdf" class="btn" target="_blank">Ver CV</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+                <p><span>Hola, soy Jacobo Gutiérrez.</span> Me dedico a impulsar el crecimiento de las ventas mediante 
+                la identificación de oportunidades, la construcción de relaciones sólidas con los clientes y la 
+                implementación de estrategia de ventas efectivas.</p>
+            
+            <h3>Perfil</h3>
+                <p>Especialista en Ventas con amplia experiencia en mercados <span>B2B y B2C</span>, 
+                enfocado en la creación de estrategias efectivas y el desarrollo de relaciones sólidas con 
+                clientes.</p>
+            
+            <h4>Hobbies</h4>                
+            <div class="fila">
+                <div class="col">
+                    
+                    <div class="contenedor-intereses">
+                        
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                                <span>Juegos</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                                <span>Oir Música</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                                <span>Viajar</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-chess"></i>
+                                <span>Chess</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-basketball"></i>
+                                <span>Basketball</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                                <span>Libros</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                                <span>Autos</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                                <span>Tomar fotos</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-dumbbell"></i>
+                                <span>Gimnasio</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical skills -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skills">
+                        <span>Javascript</span>
+                        <div class="barra-skills">
+                            <div class="progreso">
+                                <span>40%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skills">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>Photoshop</span>
+                        <div class="barra-skills">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>Quickbooks</span>
+                        <div class="barra-skills">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>Dialux</span>
+                        <div class="barra-skills">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- PROFESSIONAL SKILLS -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skills">
+                        <span>Comunicación</span>
+                        <div class="barra-skills">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skills">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>Entusiasmo</span>
+                        <div class="barra-skills">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>Resolución de Problemas</span>
+                        <div class="barra-skills">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>Proyect Management</span>
+                        <div class="barra-skills">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--SECCION EXPERIENCIA PROGRAMACION-->
+    <section id="programación" class="programación">
+        <div class="contenido-sección">
+            <h2>Experiencia en Programación</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/juego de número secreto.png" alt="#">
+                        <div class="overlay">
+                            <h3>Juego del número secreto</h3>
+                        </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/hora del desafio.png" alt="#">
+                        <div class="overlay">
+                            <h3>Hora del Desafío</h3>
+                        </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/inicio portafolio.png" alt="#">
+                        <div class="overlay">
+                            <h3>Portafolio</h3>
+                        </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/ventas de juegos.png" alt="#">
+                        <div class="overlay">
+                            <h3>Juegos</h3>
+                        </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION FORMACIÓN -->
+    <section id="formación" class="formación">
+        <div class="contenido-seccion">
+            <h2>FORMACION</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación Académica</h3>
+                    <div class="item izq">
+                        <h4>Lógica de programación con JavaScript - 23hs <br>Principiante en Programación G7 - ONE - 70hs <br> Desarrollo Personal G7 - ONE - 33hs</h4>
+                        <span class="casa">One Oracule,ALURA LATAM</span>
+                        <span class="fecha">20/06/2024 - 16/08/2024</span>
+                        <p>*Lógica de programación: Sumérgete en la programación con JavaScript (del 20/06/2024 al 09/07/2024) 8hrs <br>*Lógica de programación: Explorar funciones y listas (del 11/07/2024 al 23/07/2024) 8hrs
+                        <br>*Git y GitHub: Repositorio, commit y versiones (del 31/07/2024 al 31/07/2024) 6hrs <br>*Lógica de programación: sumérgete en la programación con JavaScript (del 20/06/2024 al 09/07/2024) 8hrs
+                        <br>*Lógica de programación: explorar funciones y listas (del 11/07/2024 al 23/07/2024) 8hrs <br>*HTML y CSS: ambientes de desarrollo, estructura de archivos y tags (del 23/07/2024 al 24/07/2024) 6hrs <br>
+                        *HTML y CSS: Clases, Posicionamiento y Flexbox (del 24/07/2024 al 24/07/2024) 6hrs <br>*HTML y CSS: header, footer y variables CSS (del 25/07/2024 al 29/07/2024) 6hrs <br>
+                        *HTML y CSS: trabajando con responsividad y publicación de proyectos (del 29/07/2024 al 30/07/2024) 6hrs <br>*Git y GitHub: repositorio, commit y versiones (del 31/07/2024 al 31/07/2024) 6hrs <br>
+                        *Prácticando lógica de programación: Challenge Encriptador de texto (del 31/07/2024 al 05/08/2024) 10hrs <br>*ChatGPT: optimizando la calidad de los resultados (del 23/07/2024 al 23/07/2024) 8hrs <br>
+                        *Aprender a aprender: tecnicas para tu autodesarrollo (del 05/08/2024 al 06/08/2024) 8hrs <br>*LinkedIn: Como hacer que tu perfil trabaje por ti (del 08/08/2024 al 08/08/2024) 6hrs <br>*
+                        Foco: Enfocarse trae más resultados para el día a día (del 08/08/2024 al 12/08/2024) 8hrs <br>*Hábitos: Ser productivo para cumplir sus metas personales (del 12/08/2024 al 16/08/2024) 8hrs</p>
+                        
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Idioma, INGLES</h4>
+                        <span class="casa">Open English</span>
+                        <span class="fecha">Mayo 2024 - Presente año</span>
+                        <p>Estudiante en Curso</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Manipulación de Alimentos</h4>
+                        <span class="casa">Instituto Nacional de Aprendizaje (INA)</span>
+                        <span class="fecha">Mayo 2024 - Agosto 2024</span>
+                        <p>*Manipulación de alimentos implica una serie de prácticas y procedimientos destinados a garantizar la 
+                            seguridad e higiene en la preparación, almacenamiento y servicio de alimentos. Esto incluye medidas 
+                            como el lavado de manos, la correcta cocción de alimentos, el uso de utensilios limpios, y el mantenimiento 
+                            de temperaturas adecuadas para prevenir la contaminación y la proliferación de bacterias, asegurando que los 
+                            alimentos sean seguros para el consumo. Registro: 2903-01082-2024</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Educación abierta</h4>
+                        <span class="casa">Dirección y Gestión y Evaluación de la calidad (MEP)</span>
+                        <span class="fecha">Año 2024</span>
+                        <p>*Estudios de Noveno año en curso.
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Unidad de Carbono Neutro</h4>
+                        <span class="casa">Universidad Earth</span>
+                        <span class="fecha">Mayo 2014</span>
+                        <p>*Entrenamiento técnico: Sensibilidad, Medición, Reporte y Verificació <br>
+                            *Sensibilidad y Responsabilidad Social. <br>
+                            *Inventario de GEI y acciones dirigidas de reducción y remoción -- Normas INTE/ISO 14064-1 <br>
+                            *Proyecto de reducción y remoción -- Norma INTE/ISO 14064-2 <br>
+                            *Verificación de tercera parte -- Norma INTE/ISO 14064-3 <br>
+                            *Norma Nacional INTE 12-01-06:2011 <br>
+                            *Sistema de información sobre GEI y sus controles <br>
+                            *Medición de Carbono en plantaciones forestales <br>
+                            *Acciones dirigidas de reducción -- Experiencia Earth <br>
+                            *Práctica de inventario <br>
+                            *Registro UCN 2014-04-03
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Técnico Mantenimiento de Computadoras</h4>
+                        <span class="casa">Universidad Metropolitana Castro Carazo (UMCA)</span>
+                        <span class="fecha">Agosto 2008</span>
+                        <p>*Conceptos básicos: computadora, software, hardware, byte, periféricos, sistemas, partes del computador, sistema operatico, red, unidades de medidas, memoria primaria y secundaria.
+                            Kit herramientas, Software; Disco de arranque, proogramas de configuración, programas de diagnóstico, programas de recuperación, Backup, Antivirus.
+                            Registro 0035-00253-2008
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Servicio de excelencia al Cliente</h4>
+                        <span class="casa">Consultores Innovadores en Talento Humano S.A.</span>
+                        <span class="fecha">Marzo 2008</span>
+                        <p>*El servicio de excelencia al cliente consiste en superar las expectativas del cliente proporcionando 
+                            una atención personalizada, rápida y efectiva. Se enfoca en crear experiencias positivas mediante 
+                            la empatía, la proactividad y la resolución eficiente de problemas. Esto incluye escuchar activamente 
+                            las necesidades del cliente, ofrecer soluciones adecuadas y mantener una comunicación clara y respetuosa, 
+                            lo que genera confianza y lealtad a largo plazo.
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Servicio de excelencia al Cliente</h4>
+                        <span class="casa">BSolutions Group
+                            A&M Consultores
+                            BAC Credomatic</span>
+                        <span class="fecha">Noviembre 2019</span>
+                        <p>*Un taller de empleabilidad es un programa diseñado para mejorar las habilidades y competencias 
+                            necesarias para acceder y mantener un empleo. Este tipo de taller abarca áreas como la elaboración 
+                            e currículums, preparación para entrevistas, desarrollo de habilidades de comunicación, networking 
+                            y estrategias de búsqueda de empleo. El objetivo es equipar a los participantes con herramientas 
+                            prácticas que aumenten sus oportunidades laborales y su capacidad para adaptarse a un mercado 
+                            laboral en constante cambio.
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia Laboral</h3>
+                    <div class="item der">
+                        <h4>Fundador--Emprendedor</h4>
+                        <span class="casa">Business Process Outsourcing MiConta (bpomiconta)</span>
+                        <span class="fecha">Enero 2018 al Presente año</span>
+                        <p>El servicio de contabilidad para pequeñas y medianas empresas (PYMEs) se centra en ofrecer soluciones 
+                            contables adaptadas a las necesidades específicas de estas empresas. Esto incluye la gestión de registros 
+                            financieros, preparación de estados financieros, cumplimiento fiscal, y asesoría en planificación financiera. 
+                            El objetivo es facilitar la toma de decisiones informadas, asegurar el cumplimiento con las normativas vigentes, 
+                            y optimizar los recursos financieros, ayudando a las PYMEs a crecer y mantenerse competitivas en el mercado.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Local Manager</h4>
+                        <span class="casa">Central American Lighting LTDA</span>
+                        <span class="fecha">
+                            Marzo 2017 - Noviembre 2017</span>
+                        <p>Responsable de supervisar las operaciones diarias de una sucursal o establecimiento, asegurando el 
+                            cumplimiento de objetivos comerciales, la satisfacción del cliente, y la gestión eficiente del personal. 
+                            Además, se encarga de implementar estrategias, controlar el presupuesto y optimizar recursos para 
+                            maximizar la rentabilidad y el rendimiento general del negocio en su área de responsabilidad.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Project and Design Manager</h4>
+                        <span class="casa">NovaLux S.A</span>
+                        <span class="fecha">Junio 2014 - Setiembre 2016</span>
+                        <p>Responsable de planificar, coordinar y ejecutar proyectos relacionados con la creación e 
+                            implementación de soluciones de iluminación. Este rol implica dirigir equipos de diseño, 
+                            gestionar presupuestos, asegurar la calidad del producto, y garantizar que los proyectos se 
+                            entreguen a tiempo y cumplan con las especificaciones técnicas y estéticas. Además, colabora 
+                            estrechamente con clientes y proveedores para desarrollar productos innovadores que satisfagan 
+                            las necesidades del mercado.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Asesor de Ventas, Técnico Electricista</h4>
+                        <span class="casa">Biolumen S.A</span>
+                        <span class="fecha">Junio 2013 - Junio 2014</span>
+                        <p>Conocimientos técnicos en electricidad con habilidades comerciales para asesorar a clientes en la 
+                            compra de productos y soluciones eléctricas. Este puesto implica identificar las necesidades del c
+                            liente, ofrecer recomendaciones especializadas, y proporcionar soporte técnico durante el proceso 
+                            de venta y postventa. Además, el asesor asegura que las soluciones propuestas cumplan con las 
+                            normativas eléctricas y optimicen el rendimiento y seguridad de los sistemas eléctricos del cliente.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Asesor de Ventas, Técnico Electricista</h4>
+                        <span class="casa">Inversiones Zheng Wu Chang S.A</span>
+                        <span class="fecha">Junio 2012 - Junio 2013</span>
+                        <p>Conocimientos técnicos en electricidad con habilidades comerciales para asesorar a clientes en la compra 
+                            de productos y soluciones eléctricas. Este puesto implica identificar las necesidades del cliente, 
+                            ofrecer recomendaciones especializadas, y proporcionar soporte técnico durante el proceso de venta y 
+                            postventa. Además, el asesor asegura que las soluciones propuestas cumplan con las normativas eléctricas 
+                            y optimicen el rendimiento y seguridad de los sistemas eléctricos del cliente.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Asistente Salonero</h4>
+                        <span class="casa">Servicio de Pastelería S.A.</span>
+                        <span class="fecha">Julio 2009 - Abril 2012</span>
+                        <p>Apoyar al salonero principal en la atención al cliente en el restaurante, cafetería. Las responsabilidades 
+                            incluyen preparar y limpiar mesas, llevar los platos y bebidas a las mesas, reponer utensilios y materiales 
+                            necesarios, y colaborar en la limpieza del área de servicio. Además, el asistente salonero debe asegurarse 
+                            de que los clientes reciban un servicio rápido y eficiente, ayudando a mantener la fluidez en la operación 
+                            del establecimiento.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Asesor de Ventas</h4>
+                        <span class="casa">Importadora de Tecnología Global YSMR S.A</span>
+                        <span class="fecha">Agosto 2008 - Abril 2009</span>
+                        <p>Asesor de ventas en computadoras consiste en guiar y apoyar a los clientes en la compra de 
+                            equipos informáticos y accesorios. Este rol implica conocer a fondo las características técnicas 
+                            de los productos, identificar las necesidades del cliente, recomendar soluciones adecuadas, y 
+                            realizar demostraciones si es necesario. Además, el asesor de ventas se encarga de cerrar ventas, 
+                            gestionar inventarios, y ofrecer soporte postventa, asegurando la satisfacción del cliente y fomentando 
+                            la fidelización.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Axiliar de Bodega</h4>
+                        <span class="casa">Importadora de Tecnología Global YSMR S.A</span>
+                        <span class="fecha">Septiembre 2007 - Agosto 2008</span>
+                        <p>Implica recibir, organizar y despachar productos relacionados con equipos informáticos y 
+                            accesorios. Sus responsabilidades incluyen controlar y registrar inventarios, asegurarse 
+                            de que los productos estén almacenados de manera ordenada y segura, preparar pedidos para s
+                            u entrega, y colaborar en la carga y descarga de mercancías. Además, el auxiliar de bodega 
+                            debe coordinarse con el equipo de ventas para garantizar que los productos estén disponibles 
+                            y listos para su distribución, contribuyendo a un flujo eficiente de operaciones dentro de la empresa.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Técnico en Computadoras</h4>
+                        <span class="casa">CompuMercado</span>
+                        <span class="fecha">2006 - 2007</span>
+                        <p>Función: Instalar, mantener, reparar y optimizar equipos informáticos y redes.
+                        Esto incluye la resolución de problemas de hardware (como discos duros, placas madre, tarjetas gráficas) y software 
+                        (sistemas operativos, aplicaciones). También configuran redes locales, instalar programas, realizar copias de seguridad 
+                        y garantizar la seguridad informática. También brindan soporte técnico a usuarios, ayudándolos a solucionar 
+                        problemas técnicos y a mejorar el rendimiento de sus dispositivos.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PROYECTO -->
+    <section id="proyecto" class="proyecto">
+        <div class="contenido-seccion">
+            <h2>PROYECTOS</h2>
+            <div class="galeria">              
+                <div class="proyecto">
+                    <img src="img/MA.png" alt="">
+                    <div class="overlay">
+                        <h3>Certificado</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/MCOMPU.png" alt="">
+                    <div class="overlay">
+                        <h3>Certificado</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/SCLIENTE.png" alt="">
+                    <div class="overlay">
+                        <h3>Certificado</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/CNEUTRAL.png" alt="">
+                    <div class="overlay">
+                        <h3>Certificado</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/TEMPLEABILIDAD.png" alt="">
+                    <div class="overlay">
+                        <h3>Certificado</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/C14.png" alt="">
+                    <div class="overlay">
+                        <h3>Certificado</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/C15.png" alt="">
+                    <div class="overlay">
+                        <h3>Certificado</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/Formación - Alura.png" alt="">
+                    <div class="overlay">
+                        <h3>Certificado</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/Formación - Alura2.png" alt="">
+                    <div class="overlay">
+                        <h3>Certificado</h3>
+                        <p>Fotografía</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                San Pedro
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                506-8790 5876 / 506-64541700
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                jgutierrez@bpomiconta.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-skype"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
